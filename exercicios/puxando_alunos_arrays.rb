@@ -1,10 +1,10 @@
 require "byebug"
 
-logica=[3,6,12,23,56,43,17,13,14,15,28,21,16,11,24]
-linguagem=[12,56,17,14,54,200,180,9,23,24]
+@logica=[3,6,12,23,56,43,17,13,14,15,28,21,16,11,24]
+@linguagem=[12,56,17,14,54,200,180,9,23,24]
 
-def teste
-	a=logica.select { |i| i == linguagem[i] }
+def teste 
+	a=@logica.select { |i| i == @linguagem[i] }
 	puts a
 end
 
