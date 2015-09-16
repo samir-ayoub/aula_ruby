@@ -20,4 +20,23 @@ class Mundo
 		@sistema_solar=sistema_solar
 	end
 
+	def girar
+		puts "Girar"
+	end
+
+	def criar
+		puts "Criar"
+	end
+
+	private
+	def log_status
+		puts "log_status"
+	end	
+
+	protected
+	def sol
+		puts "Sol"
+	end
+
 end
+
